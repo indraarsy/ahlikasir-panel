@@ -43,6 +43,11 @@
                 }
             }
         },
+        head() {
+            return {
+                title: 'Ahlikasir - ' + $nuxt.$route.name[0].toUpperCase() + $nuxt.$route.name.slice(1)
+            }
+        }
     }
 </script>
 

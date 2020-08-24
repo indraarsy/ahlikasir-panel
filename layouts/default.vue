@@ -177,6 +177,11 @@ export default {
             o.preventDefault()
         })
     })(jQuery)
+  },
+  head() {
+      return{
+          title: 'Ahlikasir - Dashboard'
+      }
   }
 }
 </script>
