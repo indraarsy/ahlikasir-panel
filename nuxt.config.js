@@ -18,7 +18,7 @@ export default {
       }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      // { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
       {
         rel: 'stylesheet',
         type: 'text/css',
@@ -72,7 +72,7 @@ export default {
    */
   modules: [
     // Doc: https://bootstrap-vue.js.org
-    // 'bootstrap-vue/nuxt',
+    'bootstrap-vue/nuxt',
     // Doc: https://axios.nuxtjs.org/usage
     '@nuxtjs/axios',
     '@nuxtjs/pwa',
@@ -118,7 +118,7 @@ export default {
    ** See https://axios.nuxtjs.org/options
    */
   axios: {
-    baseURL: 'https://ahlikasir-api.herokuapp.com/'
+    baseURL: 'http://localhost:8080/'
   },
   /*
    ** Build configuration
